@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+  }
+  
+  header {
+    display: inline;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #f6f6f6;
+    margin: 50px;
+  }
+  
+  img {
+    height: 150px;
+    border-radius: 100px;
+    border: solid 2px black; 
+    margin: 0px 350px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-center {
+    display: table;
+    margin: 0 auto;
+  }
+
+
+  .btn {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 10px 10px;
+    border-radius: 50px;
+    border: white;
+    background-color: yellow;
+    color: black;
+  }
+
+/* 
+
+/* Code to stylize buttons a little nicer colors than yellow. 
+
+  button {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 10px 10px;
+    border-radius: 50px;
+    border: white;
+    color: white;
+  }
+
+  #color {
+    background-image: linear-gradient(to right, #1d4f9b, #26D0CE );
+  }
+
+  #place {
+    background-image: linear-gradient(to right, #86e652, #78ffd6);
+  }
+
+  #ritual {
+    background-image: linear-gradient(to right, #733c3c, rgb(186, 169, 169));
+  }
+
+ */
+
+
+  table {
+    border: solid;
+    padding: 5px;
+  }
+  
+  th {
+    border: solid;
+    padding: 5px;
+  }
+  
+  td {
+    border: solid;
+    padding: 5px;
+  }
+  
+    .questions {
+    color: #f6f6f6;
+    background-color: #1d4f9b;
+  }
+  
+  .answers {
+    color: #f6f6f6;
+    background-color: #00bc13;
+  }
